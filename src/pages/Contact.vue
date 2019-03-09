@@ -2,7 +2,7 @@
   <Layout>
     <h1>Contact page</h1>
 
-    <form netlify>
+    <form name="contact-form" netlify>
       <div class="form-group">
         <label for="email">Email:</label>
         <input type="email" name="email" id="email">
@@ -17,7 +17,7 @@
         <label for="message">Message:</label>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
       </div>
-      
+
       <div class="form-group">
         <input type="submit" value="Submit">
       </div>
