@@ -2,7 +2,8 @@
   <Layout>
     <h1>Contact page</h1>
 
-    <form name="contact-form" method="POST" data-netlify="true">
+    <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact-form">
       <div class="form-group">
         <label for="email">Email:</label>
         <input type="email" name="email" id="email">
