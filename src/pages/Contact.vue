@@ -2,7 +2,7 @@
   <Layout>
     <h1>Contact page</h1>
 
-    <form name="contact-form" method="POST" netlify>
+    <form name="contact-form" method="POST" data-netlify="true">
       <div class="form-group">
         <label for="email">Email:</label>
         <input type="email" name="email" id="email">
