@@ -17,6 +17,10 @@
         <label for="message">Message:</label>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
       </div>
+      
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
     </form>
   </Layout>
 </template>
