@@ -20,15 +20,28 @@
       </div>
 
       <div class="form-group">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="submit-btn">
       </div>
     </form>
   </Layout>
 </template>
 
+<script>
+export default {
+  metaInfo: {
+    title: "Contact"
+  }
+};
+</script>
+
 <style>
 .form-group {
   display: flex;
   flex-direction: column;
+}
+
+.submit-btn {
+  padding: 5px 0px;
+  margin-top: 15px;
 }
 </style>
