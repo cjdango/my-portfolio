@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap mb-4">
+  <div class="project-list">
     <slot/>
   </div>
 </template>
@@ -8,5 +8,8 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+.project-list {
+  @apply flex flex-wrap mb-4;
+}
 </style>
