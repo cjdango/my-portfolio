@@ -19,11 +19,15 @@
 
 <style scoped>
 .header {
-  @apply font-light mt-5 text-center;
+  @apply font-light;
 }
 
 .brand {
   @apply no-underline my-5 inline-block text-5xl text-red;
+}
+
+.nav {
+  @apply inline-block ml-5;
 }
 
 .nav > ul {

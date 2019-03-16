@@ -33,11 +33,18 @@ export default {
 
 <style scoped>
 .layout {
-  @apply font-sans;
+  @apply font-sans mt-5;
+  max-width: 100%;
 }
 
 .divider {
   @apply mt-0 mb-5;
+}
+
+@screen sm {
+  .layout {
+    max-width: 75%;
+  }
 }
 </style>
 
