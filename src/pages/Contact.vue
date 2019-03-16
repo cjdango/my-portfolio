@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <DefaultLayout>
     <h1>Contact page</h1>
 
     <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
@@ -23,7 +23,7 @@
         <input type="submit" value="Submit" class="submit-btn">
       </div>
     </form>
-  </Layout>
+  </DefaultLayout>
 </template>
 
 <script>
